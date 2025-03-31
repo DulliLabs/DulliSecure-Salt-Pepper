@@ -3,8 +3,7 @@ import json, hashlib, os
 # Pfad zur JSON-Datei (ersetzt Datenbank)
 DB_FILE = 'db.json'
 
-# "Pepper" wird aus einer sicheren Quelle (z. B. Umgebungsvariable) geladen
-# Fallback ist "default_pepper", falls keine Umgebungsvariable gesetzt ist
+# "Pepper" wird aus einer sicheren Quelle geladen
 def load_pepper():
     with open("pepper.json", "r") as f:
         data = json.load(f)
