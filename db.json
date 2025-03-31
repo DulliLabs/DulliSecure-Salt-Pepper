@@ -1,0 +1,9 @@
+{
+  "users": [
+    {
+      "username": "Tobi",
+      "salt": "ad276b73d9d6c74b71e7dfd683d49422",
+      "hash": "7ce090692a29d0a545766084e330e562fed201d50401fa4f551dfec92458e99e"
+    }
+  ]
+}
